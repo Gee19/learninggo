@@ -1,0 +1,198 @@
+{
+    {
+        AddressComponents: {
+            {
+                LongName:  "5",
+                ShortName: "5",
+                Types:     {"street_number"},
+            },
+            {
+                LongName:  "ulitsa Sobyanina",
+                ShortName: "ul. Sobyanina",
+                Types:     {"route"},
+            },
+            {
+                LongName:  "Khanty-Mansiysk",
+                ShortName: "Khanty-Mansiysk",
+                Types:     {"locality", "political"},
+            },
+            {
+                LongName:  "gorod Khanty-Mansiysk",
+                ShortName: "g. Khanty-Mansiysk",
+                Types:     {"administrative_area_level_2", "political"},
+            },
+            {
+                LongName:  "Khanty-Mansiyskiy avtonomnyy okrug",
+                ShortName: "ХМАО",
+                Types:     {"administrative_area_level_1", "political"},
+            },
+            {
+                LongName:  "Russia",
+                ShortName: "RU",
+                Types:     {"country", "political"},
+            },
+            {
+                LongName:  "628011",
+                ShortName: "628011",
+                Types:     {"postal_code"},
+            },
+        },
+        FormattedAddress: "ul. Sobyanina, 5, Khanty-Mansiysk, Khanty-Mansiyskiy avtonomnyy okrug, Russia, 628011",
+        Geometry:         maps.AddressGeometry{
+            Location:     maps.LatLng{Lat:61.0002399, Lng:68.9998978},
+            LocationType: "ROOFTOP",
+            Viewport:     maps.LatLngBounds{
+                NorthEast: maps.LatLng{Lat:61.0015888802915, Lng:69.00124678029151},
+                SouthWest: maps.LatLng{Lat:60.99889091970849, Lng:68.9985488197085},
+            },
+            Types: nil,
+        },
+        Types:   {"street_address"},
+        PlaceID: "ChIJJ17tV0t7nkMRKKtNoSdj-p0",
+    },
+    {
+        AddressComponents: {
+            {
+                LongName:  "Khanty-Mansiysk",
+                ShortName: "Khanty-Mansiysk",
+                Types:     {"locality", "political"},
+            },
+            {
+                LongName:  "gorod Khanty-Mansiysk",
+                ShortName: "g. Khanty-Mansiysk",
+                Types:     {"administrative_area_level_2", "political"},
+            },
+            {
+                LongName:  "Khanty-Mansi Autonomous Okrug",
+                ShortName: "ХМАО",
+                Types:     {"administrative_area_level_1", "political"},
+            },
+            {
+                LongName:  "Russia",
+                ShortName: "RU",
+                Types:     {"country", "political"},
+            },
+        },
+        FormattedAddress: "Khanty-Mansiysk, Khanty-Mansi Autonomous Okrug, Russia",
+        Geometry:         maps.AddressGeometry{
+            Location:     maps.LatLng{Lat:61.00909189999999, Lng:69.03745959999999},
+            LocationType: "APPROXIMATE",
+            Viewport:     maps.LatLngBounds{
+                NorthEast: maps.LatLng{Lat:61.04769189999999, Lng:69.172613},
+                SouthWest: maps.LatLng{Lat:60.96262590000001, Lng:68.9557319},
+            },
+            Types: nil,
+        },
+        Types:   {"locality", "political"},
+        PlaceID: "ChIJK1CKBMZknkMRokbJeXYRrEU",
+    },
+    {
+        AddressComponents: {
+            {
+                LongName:  "gorod Khanty-Mansiysk",
+                ShortName: "g. Khanty-Mansiysk",
+                Types:     {"administrative_area_level_2", "political"},
+            },
+            {
+                LongName:  "Khanty-Mansiyskiy avtonomnyy okrug",
+                ShortName: "ХМАО",
+                Types:     {"administrative_area_level_1", "political"},
+            },
+            {
+                LongName:  "Russia",
+                ShortName: "RU",
+                Types:     {"country", "political"},
+            },
+        },
+        FormattedAddress: "g. Khanty-Mansiysk, Khanty-Mansiyskiy avtonomnyy okrug, Russia",
+        Geometry:         maps.AddressGeometry{
+            Location:     maps.LatLng{Lat:61.0215238, Lng:69.0601602},
+            LocationType: "APPROXIMATE",
+            Viewport:     maps.LatLngBounds{
+                NorthEast: maps.LatLng{Lat:61.04769189999999, Lng:69.1726127},
+                SouthWest: maps.LatLng{Lat:60.96262590000001, Lng:68.9557319},
+            },
+            Types: nil,
+        },
+        Types:   {"administrative_area_level_2", "political"},
+        PlaceID: "ChIJVbaaCyxlnkMRzFIXiwXtk8c",
+    },
+    {
+        AddressComponents: {
+            {
+                LongName:  "628011",
+                ShortName: "628011",
+                Types:     {"postal_code"},
+            },
+            {
+                LongName:  "Khanty-Mansi Autonomous Okrug",
+                ShortName: "ХМАО",
+                Types:     {"administrative_area_level_1", "political"},
+            },
+            {
+                LongName:  "Russia",
+                ShortName: "RU",
+                Types:     {"country", "political"},
+            },
+        },
+        FormattedAddress: "Khanty-Mansi Autonomous Okrug, Russia, 628011",
+        Geometry:         maps.AddressGeometry{
+            Location:     maps.LatLng{Lat:60.9540294, Lng:68.870907},
+            LocationType: "APPROXIMATE",
+            Viewport:     maps.LatLngBounds{
+                NorthEast: maps.LatLng{Lat:61.21548809999999, Lng:69.05191889999999},
+                SouthWest: maps.LatLng{Lat:60.6720881, Lng:68.748701},
+            },
+            Types: nil,
+        },
+        Types:   {"postal_code"},
+        PlaceID: "ChIJt-CKYPBinkMRtMPOVnWylL0",
+    },
+    {
+        AddressComponents: {
+            {
+                LongName:  "Khanty-Mansi Autonomous Okrug",
+                ShortName: "ХМАО",
+                Types:     {"administrative_area_level_1", "political"},
+            },
+            {
+                LongName:  "Russia",
+                ShortName: "RU",
+                Types:     {"country", "political"},
+            },
+        },
+        FormattedAddress: "Khanty-Mansi Autonomous Okrug, Russia",
+        Geometry:         maps.AddressGeometry{
+            Location:     maps.LatLng{Lat:62.2287062, Lng:70.6410058},
+            LocationType: "APPROXIMATE",
+            Viewport:     maps.LatLngBounds{
+                NorthEast: maps.LatLng{Lat:65.71070100000001, Lng:85.9728444},
+                SouthWest: maps.LatLng{Lat:58.5764188, Lng:59.19747880000001},
+            },
+            Types: nil,
+        },
+        Types:   {"administrative_area_level_1", "political"},
+        PlaceID: "ChIJH39VhUk4cUMRja3IWYUvaQM",
+    },
+    {
+        AddressComponents: {
+            {
+                LongName:  "Russia",
+                ShortName: "RU",
+                Types:     {"country", "political"},
+            },
+        },
+        FormattedAddress: "Russia",
+        Geometry:         maps.AddressGeometry{
+            Location:     maps.LatLng{Lat:61.52401, Lng:105.318756},
+            LocationType: "APPROXIMATE",
+            Viewport:     maps.LatLngBounds{
+                NorthEast: maps.LatLng{Lat:70, Lng:179},
+                SouthWest: maps.LatLng{Lat:40, Lng:27},
+            },
+            Types: nil,
+        },
+        Types:   {"country", "political"},
+        PlaceID: "ChIJ-yRniZpWPEURE_YRZvj9CRQ",
+    },
+}
