@@ -82,7 +82,7 @@ func main() {
 				return
 			}
 
-			fmt.Fprintln(w, "FormattedAddress = ", g[0].FormattedAddress)
+			fmt.Fprintln(w, "FormattedAddress =  ", g[0].FormattedAddress)
 		}
 	})
 	log.Fatal(http.ListenAndServe(":8080", nil))
